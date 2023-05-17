@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="jucexample" />
+        <module name="classLoader" />
+        <module name="design_pattern" />
+        <module name="jdk7" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="classLoader" target="1.8" />
+      <module name="design_pattern" target="1.8" />
+      <module name="jdk7" target="1.7" />
+      <module name="jucexample" target="1.8" />
+      <module name="section-three" target="1.8" />
+      <module name="section-two" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_STRING" value="-encoding utf-8" />
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="classLoader" options="" />
+      <module name="design_pattern" options="" />
+      <module name="jdk7" options="" />
+      <module name="jucexample" options="" />
+      <module name="section-three" options="" />
+      <module name="section-two" options="" />
+    </option>
+  </component>
+</project>
